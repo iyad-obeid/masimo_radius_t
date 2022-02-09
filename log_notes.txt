@@ -1,0 +1,26 @@
+00.log - Created a new user and paired the sensor from scratch and collected data for ~20 minutes. 
+	 This should have the pairing process as well as data. There is roughly 7 exchanges between Pixel and Sensor before temps are sent.
+	 Line 328-388 seem to be the "pairing process". Line 388 contains the "trigger".
+	 The temperatures recorded on the app were:
+101.7
+101.7
+101.7
+101.8
+101.8
+102.2
+101.8
+102.0
+102.0
+100.8
+100.8
+**Each of these values appear to have been 60 seconds apart.(Look at lines 468-478, the time difference is 60seconds).
+
+01.log- Battery was unplugged, and the phone was restarted, but the sensor and user were kept on the RadiusT app.
+	Sensor light was green until opening the app then went solid blue. Once the app opened, the UI on the app never updated (was stuck reading last updated xxxMinutes ago).
+	However, there is data logged, their UI just sucks. In the log the 7 exchanges are in fact repeated before data was streamed. Unfortunately, I don't know what these values are 
+	since the UI never updated itself. Line 221-245 appear to be the "pairing process". Line 245 contains the believed to be "trigger" commmand for this sensor, since everything after this is just data.
+	So the "pairing process" is in fact repeated. This leads me to believe that its not really a pairing process but maybe more of a syncing processing.
+	
+
+
+

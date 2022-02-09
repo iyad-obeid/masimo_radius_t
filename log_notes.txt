@@ -1,5 +1,5 @@
-00.log - Created a new user and paired the sensor from scratch and collected data for ~20 minutes. 
-	 This should have the pairing process as well as data. There is roughly 7 exchanges between Pixel and Sensor before temps are sent.
+00.log - Created a new user and paired the sensor from scratch and collected data for ~60 minutes. 
+	 This should have the pairing process as well as data. There are roughly 7 exchanges between Pixel and Sensor before temps are sent.
 	 Line 328-388 seem to be the "pairing process". Line 388 contains the "trigger".
 	 The temperatures recorded on the app were:
 101.7

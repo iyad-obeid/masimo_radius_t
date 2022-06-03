@@ -27,4 +27,5 @@ Connections are between Google Pixel and a [Masimo Radius-T](https://www.masimo.
 * Bytes 0-2 are a packet header
 * Bytes 3-4 are a timestamp
 * Bytes 5-6 are an unsigned 16-bit int (`uint16_t`) which give the temp in milli Celsius
+
 Note that if the sensor is not attached to the body, it will transmit temperatures of `0x00`

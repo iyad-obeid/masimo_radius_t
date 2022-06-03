@@ -1,6 +1,6 @@
 # masimo_radius_t
 
-The two log files can be opened in Wireshark. Notes on how they were acquired are in the log_notes.txt file.
+The two log files can be opened in Wireshark. Notes on how they were acquired are in the [log_notes.txt](log_notes.txt) file.
 
 Briefly:
 * 00.log captures the complete pairing and data acquisition process
